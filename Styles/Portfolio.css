@@ -18,8 +18,9 @@
 header{
     background-image: url("/Assets/Hero-bg.png");
     background-repeat: no-repeat;
-    min-width: 1440px;
+    max-width: 1440px;
     min-height: 698px;
+   margin-bottom: 30px;
 }
 
 nav{
@@ -61,3 +62,33 @@ nav ul li a{
     margin-bottom: 30px;
 
 }
+
+/* main section styles */
+
+/* see it in action styles */
+
+body{
+    background-color: #F5F8FF;
+}
+.see-it-in-action-section{
+display: flex;
+border-radius: 10px;
+justify-content: space-between;
+max-width: 1140px;
+min-height: 328px;
+align-self: center;
+padding: 300 160px;
+margin: 3000 50px;
+
+}
+
+.action-image{
+   border-radius: 48px;
+
+}
+
+.action-texts{
+    padding: 30px;
+    margin-left: auto;
+}
+
